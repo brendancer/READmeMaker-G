@@ -1,12 +1,9 @@
 // function to generate markdown for README
 
-
-function generateMarkdown(response)
-
-  
+function generateMarkdown(response) {
   return `###${response.title}
 
-${license.choices.value}
+${response.license.value}
 
   // # Table of Contents
   // 1. [Description of Project](#description)
