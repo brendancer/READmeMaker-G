@@ -1,12 +1,4 @@
-// function to generate markdown for README
-
-
-function generateMarkdown(response)
-
-  
-  return `###${response.title}
-
-${license.choices.value}
+###undefined
 
   # Table of Contents
   1. [Description of Project](#description)
@@ -18,36 +10,24 @@ ${license.choices.value}
   
   ## Description of Project <a name="description"></a>
 
-  ${response.description}
+  undefined
 
   ## Installation Instructions <a name="installation"></a>
 
-  ${response.installation}
+  undefined
 
   ## Usage Instructions <a name="usage"></a>
 
-  ${response.usage}
-
-  ## License
-
-  ${response.license}
+  undefined
 
 
   ## Contribution Guidelines <a name="contribution"></a>
 
-  ${response.contribution}
+  undefined
 
   ## Tests <a name="tests"></a>
 
-  ${response.tests}
-
-  
+  undefined
 
 
 
-
-
-`;
-}
-
-module.exports = generateMarkdown;
