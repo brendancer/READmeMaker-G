@@ -5,12 +5,12 @@ function generateMarkdown(response) {
 
 ${response.license.value}
 
-  // # Table of Contents
-  // 1. [Description of Project](#description)
-  // 2. [Installation Instructions](#installation)
-  // 3. [Usage Instructions](#usage)
-  // 4. [Contribution Guidelines](#contribution)
-  // 5. [Tests](#tests)
+  # Table of Contents
+  1. [Description of Project](#description)
+  2. [Installation Instructions](#installation)
+  3. [Usage Instructions](#usage)
+  4. [Contribution Guidelines](#contribution)
+  5. [Tests](#tests)
 
   
   ## Description of Project <a name="description"></a>
