@@ -1,16 +1,6 @@
 # READmeMaker
 
-![first few lines of terminal](/Users/Goodwin/Documents/webdev/bootcamp/repositories/homework/READmeMaker/images/topbanner.png)
-
-##### Questions are asken in the command line.
-
-/Users/Goodwin/Documents/webdev/bootcamp/repositories/homework/READmeMaker/images/smallPageView.png
-
-##### When the questions are answered, they generate formatted markdown.
-
-/Users/Goodwin/Documents/webdev/bootcamp/repositories/homework/READmeMaker/images/markdown.png
-
-[![Watch the video](https://drive.google.com/file/d/1AY724lly92PYyb8t8XwldXD6B6RyGATR/view?usp=sharing)](https://youtu.be/vt5fpE0bzSY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5eUWk09dRto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### _Below is a sample READme created by READmeMaker_
 
