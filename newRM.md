@@ -1,8 +1,12 @@
-###sfa
+### READmeMaker
+##### *a project by* Brenda Goodwin
 
- [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-  # Table of Contents
+
+
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ### Table of Contents
   1. [Description of Project](#description)
   2. [Installation Instructions](#installation)
   3. [Usage Instructions](#usage)
@@ -10,30 +14,37 @@
   5. [Tests](#tests)
 
   
-  ## Description of Project <a name="description"></a>
+  ## *Description of Project* <a name="description"></a>
 
-  dfsadf
+  READmeMaker is a cli app to create professional readme files. Using the command line, the user can quickly and easily create a readme file by simply answering questions.
 
-  ## Installation Instructions <a name="installation"></a>
+  ## *Installation Instructions* <a name="installation"></a>
 
-  fsdaf
+  No special installations are required.
 
-  ## Usage Instructions <a name="usage"></a>
+  ## *Usage Instructions* <a name="usage"></a>
 
-  fdsafa
+  Simply answer the questions and a nicely formatted readme file will be generated. Note that at this time, no screen shots are included.
 
-  ## License
+  ## *License*
 
-  ISC
+  MIT
 
 
-  ## Contribution Guidelines <a name="contribution"></a>
+  ## *Contribution Guidelines* <a name="contribution"></a>
 
-  fsdafdsfdsdsafdsfdsaf
+  Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
-  ## Tests <a name="tests"></a>
+  ## *Tests* <a name="tests"></a>
 
-  fdsaasdf
+  Perform tests in the usual manner.
+
+  ## *Questions?*
+
+  Contact the author at:
+  *email:* brendanced@gmail.com 
+  *linkedIn:*  www.linkedin.com/in/brendagoodwin2
+  *GitHub:*  https://github.com/brendancer
 
   
 

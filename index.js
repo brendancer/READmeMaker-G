@@ -16,11 +16,6 @@ inquirer
     },
     {
       type: "input",
-      name: "phone",
-      message: "Phone (formatted as you want it to appear)",
-    },
-    {
-      type: "input",
       name: "linkedIn",
       message: "LinkedIn profile link",
     },
@@ -53,7 +48,7 @@ inquirer
     {
       type: "list",
       name: "license",
-      message: "Type in your license",
+      message: "Choose in your license",
       choices: ["MIT", "Boost", "Apache", "ISC"],
     },
 
@@ -68,16 +63,16 @@ inquirer
       message: "Type in your test instructions",
     },
   ])
-  .then((answers) => {
-    console.log("answers", answers);
-    const markDown = generateMarkdown(answers);
+  .then((response) => {
+    console.log("response", response);
+    const markDown = generateMarkdown(response);
 
     fs.writeFile("newRM.md", markDown, (err) => {
       if (err) {
         console.log(err);
       } else {
         console.log("README generated");
-        console.log(answers);
+        console.log(response);
       }
     });
   });

@@ -22,11 +22,15 @@ function generateMarkdown(response) {
         "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
   }
 
-  return `###${response.title}
+  return `### ${response.title}
+##### *a project by* ${response.myName}
+
+
+
 
  ${badge}
 
-  # Table of Contents
+  ### Table of Contents
   1. [Description of Project](#description)
   2. [Installation Instructions](#installation)
   3. [Usage Instructions](#usage)
@@ -34,30 +38,37 @@ function generateMarkdown(response) {
   5. [Tests](#tests)
 
   
-  ## Description of Project <a name="description"></a>
+  ## *Description of Project* <a name="description"></a>
 
   ${response.description}
 
-  ## Installation Instructions <a name="installation"></a>
+  ## *Installation Instructions* <a name="installation"></a>
 
   ${response.installation}
 
-  ## Usage Instructions <a name="usage"></a>
+  ## *Usage Instructions* <a name="usage"></a>
 
   ${response.usage}
 
-  ## License
+  ## *License*
 
   ${response.license}
 
 
-  ## Contribution Guidelines <a name="contribution"></a>
+  ## *Contribution Guidelines* <a name="contribution"></a>
 
   ${response.contribution}
 
-  ## Tests <a name="tests"></a>
+  ## *Tests* <a name="tests"></a>
 
   ${response.tests}
+
+  ## *Questions?*
+
+  Contact the author at:
+  *email:* ${response.email} 
+  *linkedIn:*  ${response.linkedIn}
+  *GitHub:*  ${response.gitHub}
 
   
 
