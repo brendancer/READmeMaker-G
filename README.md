@@ -1,6 +1,6 @@
 # READmeMaker
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5eUWk09dRto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo](http://img.youtube.com/vi/5eUWk09dRto/0.jpg)](http://www.youtube.com/watch?v=5eUWk09dRto "READmeMaker")
 
 ### _Below is a sample READme created by READmeMaker_
 
