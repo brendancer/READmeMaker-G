@@ -64,7 +64,6 @@ inquirer
     },
   ])
   .then((response) => {
-    console.log("response", response);
     const markDown = generateMarkdown(response);
 
     fs.writeFile("newRM.md", markDown, (err) => {
@@ -72,7 +71,6 @@ inquirer
         console.log(err);
       } else {
         console.log("README generated");
-        console.log(response);
       }
     });
   });
