@@ -1,9 +1,30 @@
 // function to generate markdown for README
-
+var badge;
 function generateMarkdown(response) {
+  switch (response.license) {
+    case "MIT":
+      badge =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+
+    case "Boost":
+      badge =
+        "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+      break;
+
+    case "Apache":
+      badge =
+        "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+
+    case "ISC":
+      badge =
+        "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+  }
+
   return `###${response.title}
 
-${response.license.value}
+ ${badge}
 
   # Table of Contents
   1. [Description of Project](#description)
