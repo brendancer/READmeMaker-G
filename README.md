@@ -16,11 +16,11 @@
   
   ## *Description of Project* <a name="description"></a>
 
-  READmeMaker is a CLI app to create professional readme files. Using the command line, the user can quickly and easily create a readme file by simply answering questions.
+   READmeMaker is a CLI app to create professional readme files. Using the command line, the user can quickly and easily create a readme file by simply answering questions.
 
   ## *Installation Instructions* <a name="installation"></a>
 
-  No special installations are required.
+  No special installation required
 
   ## *Usage Instructions* <a name="usage"></a>
 
@@ -33,17 +33,17 @@
 
   ## *Contribution Guidelines* <a name="contribution"></a>
 
-  Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+  In gereal we follow the "fork-and-pull" Git workflow
 
   ## *Tests* <a name="tests"></a>
 
-  Perform tests in the usual manner.
+  test as usual
 
   ## *Questions?*
 
   Contact the author at:
   *email:* brendanced@gmail.com 
-  *linkedIn:*  www.linkedin.com/in/brendagoodwin2
+  *linkedIn:*  https://www.linkedin.com/in/brendagoodwin23/
   *GitHub:*  https://github.com/brendancer
 
   

@@ -66,7 +66,7 @@ inquirer
   .then((response) => {
     const markDown = generateMarkdown(response);
 
-    fs.writeFile("newRM.md", markDown, (err) => {
+    fs.writeFile("READme.md", markDown, (err) => {
       if (err) {
         console.log(err);
       } else {
