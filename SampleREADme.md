@@ -1,54 +1,44 @@
 # READmeMaker
-##### *a project by* Brenda Goodwin
 
+##### _a project by_ Brenda Goodwin
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+### Table of Contents
 
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+1. [Description of Project](#description)
+2. [Installation Instructions](#installation)
+3. [Usage Instructions](#usage)
+4. [Contribution Guidelines](#contribution)
+5. [Tests](#tests)
 
-  ### Table of Contents
-  1. [Description of Project](#description)
-  2. [Installation Instructions](#installation)
-  3. [Usage Instructions](#usage)
-  4. [Contribution Guidelines](#contribution)
-  5. [Tests](#tests)
+## _Description of Project_ <a name="description"></a>
 
-  
-  ## *Description of Project* <a name="description"></a>
+READmeMaker is a CLI app to create professional readme files. Using the command line, the user can quickly and easily create a readme file by simply answering questions.
 
-   READmeMaker is a CLI app to create professional readme files. Using the command line, the user can quickly and easily create a readme file by simply answering questions.
+## _Installation Instructions_ <a name="installation"></a>
 
-  ## *Installation Instructions* <a name="installation"></a>
+Run npm i to install dependancies. Node index.js to start.
 
-  No special installation instructions
+## _Usage Instructions_ <a name="usage"></a>
 
-  ## *Usage Instructions* <a name="usage"></a>
+Simply answer the questions and a nicely formatted readme file will be generated. Note that at this time, no screen shots are included.
 
-  Simply answer the questions and a nicely formatted readme file will be generated. Note that at this time, no screen shots are included.
+## _License_
 
-  ## *License*
+MIT
 
-  MIT
+## _Contribution Guidelines_ <a name="contribution"></a>
 
+In general, follow the "fork-and-pull" Git workflow.
 
-  ## *Contribution Guidelines* <a name="contribution"></a>
+## _Tests_ <a name="tests"></a>
 
-  In general, follow the "fork-and-pull" Git workflow.
+Test as needed.
 
-  ## *Tests* <a name="tests"></a>
+## _Questions?_
 
-  Test as needed.
-
-  ## *Questions?*
-
-  Contact the author at:
-  *email:* brendanced@gmail.com 
-  *linkedIn:*  https://www.linkedin.com/in/brendagoodwin23/
-  *GitHub:*  https://github.com/brendancer
-
-  
-
-
-
-
-
+Contact the author at:
+_email:_ brendanced@gmail.com
+_linkedIn:_ https://www.linkedin.com/in/brendagoodwin23/
+_GitHub:_ https://github.com/brendancer

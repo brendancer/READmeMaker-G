@@ -66,11 +66,15 @@ inquirer
   .then((response) => {
     const markDown = generateMarkdown(response);
 
-    fs.writeFile("READme.md", markDown, (err) => {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log("README generated");
+    fs.writeFile(
+      `./generatedReadMeFiles/${response.title}.md`,
+      markDown,
+      (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("README generated");
+        }
       }
-    });
+    );
   });

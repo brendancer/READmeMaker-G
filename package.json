@@ -9,10 +9,7 @@
   "author": "Brenda Goodwin",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^7.3.3",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "inquirer": "^7.3.3"
   }
-
-
-  
 }
